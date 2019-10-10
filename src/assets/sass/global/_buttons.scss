@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    font-size: $baseFontSize;
+    border: none;
+    cursor: pointer;
+    &.btn-primary {
+        color: $white;
+        background-color: $primary;
+        transition: background 250ms;
+        &:hover {
+            background-color: lighten($primary, 20%);
+        }
+    }
+}
